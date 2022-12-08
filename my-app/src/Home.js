@@ -6,7 +6,6 @@ function Home() {
   const [address, setAddress] = useState("");
   return (
     <div className="mainpage">
-      <p className='title'>P A G E S M O D E</p>
       <p className='paragraph'>Trouvez toutes les marques de prêt-à-porter et de chaussure à deux pas de chez vous</p>
       <input type="text" placeholder='Saisir une adresse' onChange={(e) => setAddress(e.target.value)} className='address' />
       <Link to={`/SecondPage/${address}`}>Rechercher</Link>

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.mainpage {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    padding: 20px 28.5px 19.2px 29px;
+    border: solid 1px white;
+    font-size: 10px;
+    max-width: 174.5px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 52px;
+    margin-left: 25px;
+    margin-right: 126px;
+    text-align: center;
+  }

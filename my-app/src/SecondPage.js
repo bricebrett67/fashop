@@ -7,18 +7,22 @@ function SecondPage() {
     const { address } = useParams();
     const [result, setResult] = useState();
     useEffect(() => {
-        fetch("https://api-adresse.data.gouv.fr/search/?q=" + encodeURI(address))
+        fetch("https://api-adresse.data.gouv.fr/search/?q=" + encodeURI(address) + "&limit=2")
             .then(res => res.json())
             .then(res => setResult(res))
     }, [])
-    console.log(address)
-
-    result?.features.map((feature) => {
-        return (
-            <p>{feature.properties.context} {feature.properties.postcode} {feature.properties.city}</p>
-
-        )
-    });
+    console.log(result)
+    return (
+        <div>
+            {
+                result?.features.map((feature) => {
+                    return (
+                        <p>{feature.properties.name + ", " + feature.properties.citycode + " " + feature.properties.city}</p>
+                    )
+                })
+            }
+        </div>
+    )
 }
 
-    export default SecondPage
+export default SecondPage
