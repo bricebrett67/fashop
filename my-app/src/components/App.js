@@ -1,6 +1,6 @@
-import Home from '../Home';
-import '../Home';
-import SecondPage from '../SecondPage';
+import Home from './Home';
+import './Home.css';
+import SecondPage from '../components/SecondPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {

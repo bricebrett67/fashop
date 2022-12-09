@@ -8,7 +8,8 @@
 
 .title {
     margin: 0;
-    padding: 20px 28.5px 19.2px 29px;
+    /* position: absolute; */
+    padding: 18px 14px 18px 14px;
     border: solid 1px white;
     font-size: 10px;
     max-width: 174.5px;
