@@ -1,0 +1,31 @@
+
+
+.facebook {
+    width: 5%;
+    margin-right: 5%;
+    margin-left: 53%;
+}
+
+.instagram {
+    width: 5%;
+}
+
+.footer {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: white;
+}
+
+.titlefooter {
+    font-size: 9px;
+    margin-left: 4%;
+}
+
+.secondFooter {
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+}

@@ -7,7 +7,7 @@ import './SecondPage.css';
 function SecondPage() {
 
     const { address } = useParams();
-    const [ geoData, setGeoData ] = useState();
+    // const [ geoData, setGeoData ] = useState();
     const [result, setResult] = useState();
     useEffect(() => {
         fetch("https://api-adresse.data.gouv.fr/search/?q=" + encodeURI(address) + "&limit=2")
