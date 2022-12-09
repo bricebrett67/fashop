@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.mainpage {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
 .title {
     margin: 0;
-    /* position: absolute; */
     padding: 18px 14px 18px 14px;
     border: solid 1px white;
     font-size: 10px;
