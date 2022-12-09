@@ -38,7 +38,7 @@ function MapPage() {
             />
 
             <Marker position={[geoData.lat, geoData.lng]}>
-              <Popup>This is the ISS position</Popup>
+              
             </Marker>
           </MapContainer>
         </div>
