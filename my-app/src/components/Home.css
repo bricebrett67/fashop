@@ -53,4 +53,17 @@
   padding: 25px;
   text-decoration: none;
   color: black;
+  margin-bottom: 20%;
 }
+
+/* Tablets and under */
+/* @media(max-width: 768px) {
+  .button {
+    
+  }
+} */
+
+/* Mobile */
+/* @media(max-width: 500px) {
+
+} */

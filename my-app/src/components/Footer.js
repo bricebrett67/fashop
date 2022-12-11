@@ -11,8 +11,8 @@ function Footer() {
                     <img className='instagram' src={instagram} alt="instagram"></img>
             </div>
             <div className='secondFooter'>
-                <li>VOUS ÊTES UNE MARQUE ?</li>
-                <li>VOUS ÊTES UNE BOUTIQUE ?</li>
+                <li className='underline'>VOUS ÊTES UNE MARQUE ?</li>
+                <li className='underline'>VOUS ÊTES UNE BOUTIQUE ?</li>
                 <li>PLAN DU SITE</li>
             </div>
         </div>

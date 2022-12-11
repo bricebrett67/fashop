@@ -1,5 +1,6 @@
 .body {
     background-color: #eff0ff;
+    
 }
 
 .background {
@@ -23,4 +24,35 @@
 
 .cards {
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    width: 303px;
+    height: 251px;
+    margin-bottom: 10%;
+}
+
+.card-body {
+    font-size: 12px;
+    padding: 20px;
+}
+
+.cards-details {
+    margin-top: 20%;
+}
+
+.map {
+    background-color: #4e55e3;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    padding: 24px 24px;
+    margin-top: 15%;
+}
+
+.buttonsearch {
+    text-decoration: none;
+    color: white;
 }

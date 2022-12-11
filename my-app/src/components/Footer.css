@@ -11,7 +11,7 @@
 }
 
 .footer {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -28,4 +28,14 @@
     margin-top: 3%;
     background-color: black;
     color: white;
+    padding: 20px 0;
 }
+
+li {
+    padding: 41px 0px;
+    font-size: 10px;
+    margin-left: 25%;
+    font-weight: bold;
+    list-style-type: none;
+}
+
